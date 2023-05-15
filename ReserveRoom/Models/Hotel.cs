@@ -19,7 +19,7 @@ namespace ReserveRoom.Models
 
         public IEnumerable<Reservation> GetReservationsForUser(string userName)
         {
-            return _reservationBook.GetReservationsForUser(userName); 
+            return _reservationBook.GetAllReservations(userName); 
         }
 
 

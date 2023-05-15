@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.Serialization;
+using System.Windows.Diagnostics;
 
 namespace ReserveRoom.Models
 {
@@ -29,6 +30,5 @@ namespace ReserveRoom.Models
         protected ReservationConflictException(SerializationInfo info, StreamingContext context) : base(info, context)
         {
         }
-
     }
 }
