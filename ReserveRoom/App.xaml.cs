@@ -30,7 +30,7 @@ namespace ReserveRoom
              new DateTime(2000, 1, 4),
              "Ben"));
 
-            IEnumerable<Reservation> reservations = hotel.GetReservationsForUser("John");
+            IEnumerable<Reservation> reservations = hotel.GetAllReservations("John");
             base.OnStartup(e);
         }
     }
